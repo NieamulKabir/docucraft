@@ -15,7 +15,7 @@ const ContentDisplay = async ({ id }) => {
             {documentContent.author}
           </Link>{" "}
           under the{" "}
-          <Link href={`/category/${documentContent.category}`}>
+          <Link href={`/categories/${documentContent.category}`}>
             {documentContent.category}
           </Link>{" "}
           category
